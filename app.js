@@ -63,3 +63,19 @@ const interval = setInterval(function(){
 }, 1000)
 
 
+const arrow = (name) => {
+}
+
+const sum = (a,b) => a + b
+console.log(sum(2, 3))
+
+
+function createMember(name){
+    return function(lastName){
+        console.log(name + lastName)
+    }
+}
+
+const cars = ['Мазда', 'Форд', 'БМВ', 'Мерседес']
+const fib = [1, 1, 2, 3, 5, 8, 13]
+
